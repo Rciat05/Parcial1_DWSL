@@ -21,7 +21,7 @@ $productos = mysqli_query($con, "SELECT * FROM productos");
     <div class="container mt-4">
         <h1>Gestión de Productos</h1>
         <hr>
-        <a class="btn btn-light mb-3" href="panel.php">Volver al panel principal</a>
+        <a class="btn btn-primary mb-3" href="../panel.php">Volver al panel principal</a>
         <a class="btn btn-success mb-3" href="agregar_producto.php">Agregar Producto</a>
 
         <table class="table table-bordered">

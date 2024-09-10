@@ -1,12 +1,12 @@
 <?php
-// Conexión a la base de datos
+
 $con = mysqli_connect("localhost", "root", "291866Rc", "TiendaBebidas");
 if (mysqli_connect_errno()) {
     echo "Error en la conexión a la base de datos: " . mysqli_connect_error();
     exit();
 }
 
-// Obtener el ID de la categoría desde la URL
+
 $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
 if ($id) {

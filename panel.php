@@ -9,11 +9,13 @@
 <body>
     <div class="container mt-4">
         <h1>Panel de Gestión</h1>
+        <hr>
         <p>Selecciona la tabla que deseas gestionar:</p>
         <div class="btn-group">
-            <a class="btn btn-warning" href="gestion_productos.php">Gestionar Productos</a>
-            <a class="btn btn-info" href="gestion_categoria.php">Gestionar Categorías</a>
+            <a class="btn btn-warning" href="Productos/gestion_productos.php">Gestionar Productos</a>
+            <a class="btn btn-info" href="Categorias/gestion_categoria.php">Gestionar Categorías</a>
         </div>
+        <br>
         <a class="btn btn-danger mt-3" href="logout.php">Cerrar Sesión</a>
     </div>
 </body>

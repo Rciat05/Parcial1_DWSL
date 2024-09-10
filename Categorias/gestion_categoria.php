@@ -20,7 +20,7 @@ $categorias = mysqli_query($con, "SELECT * FROM categorias");
     <div class="container mt-5">
         <h2>Gestión de Categorías</h2>
         <hr>
-        <a class="btn btn-light mb-3" href="panel.php">Volver al panel principal</a>
+        <a class="btn btn-primary mb-3" href="../panel.php">Volver al panel principal</a>
         <a href="agregar_categoria.php" class="btn btn-success mb-3">Agregar Categoría</a>
         <table class="table table-striped">
             <thead>
