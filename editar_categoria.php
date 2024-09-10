@@ -70,8 +70,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
-            <a href="gestion_categoria.php" class="btn btn-secondary">Cancelar</a>
+            <button type="submit" class="btn btn-success">Guardar Cambios</button>
+            <a href="gestion_categoria.php" class="btn btn-danger">Cancelar</a>
         </form>
     </div>
 

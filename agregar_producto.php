@@ -30,7 +30,7 @@
                 <label for="fecha_expiracion" class="form-label">Fecha de Expiración</label>
                 <input type="date" class="form-control" id="fecha_expiracion" name="fecha_expiracion">
             </div>
-            <button type="submit" class="btn btn-primary">Agregar Producto</button>
+            <button type="submit" class="btn btn-success">Agregar Producto</button>
         </form>
 
         <?php

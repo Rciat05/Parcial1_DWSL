@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-primary">Agregar Categoría</button>
+            <button type="submit" class="btn btn-success">Agregar Categoría</button>
         </form>
     </div>
 

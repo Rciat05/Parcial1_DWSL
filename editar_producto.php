@@ -30,8 +30,8 @@
             <label for="fecha_expiracion" class="form-label">Fecha de Expiración</label>
             <input type="date" class="form-control" id="fecha_expiracion" name="fecha_expiracion" value="<?php echo isset($producto['fecha_expiracion']) ? htmlspecialchars($producto['fecha_expiracion']) : ''; ?>">
         </div>
-        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
-        <a href="gestion_productos.php" class="btn btn-secondary">Cancelar</a>
+        <button type="submit" class="btn btn-success">Guardar Cambios</button>
+        <a href="gestion_productos.php" class="btn btn-danger">Cancelar</a>
     </form>
 </div>
 </body>

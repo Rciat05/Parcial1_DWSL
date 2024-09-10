@@ -22,7 +22,7 @@
                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" name="contrasena">
             </div>
-            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            <button type="submit" class="btn btn-info">Iniciar Sesión</button>
         </form>
     </div>
 
