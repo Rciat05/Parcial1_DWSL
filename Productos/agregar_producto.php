@@ -46,13 +46,11 @@
             $precio = isset($_POST['precio']) ? mysqli_real_escape_string($con, $_POST['precio']) : "";
             $stock = isset($_POST['stock']) ? mysqli_real_escape_string($con, $_POST['stock']) : "";
             $fecha_expiracion = isset($_POST['fecha_expiracion']) ? mysqli_real_escape_string($con, $_POST['fecha_expiracion']) : "";
-
-            // Inserta el producto en la base de datos
+      
             $consulta = "INSERT INTO productos (nombre, descripcion, precio, stock, fecha_expiracion) 
                          VALUES ('$nombre', '$descripcion', '$precio', '$stock', '$fecha_expiracion')";
 
             if (mysqli_query($con, $consulta)) {
-                // Redirige a la página de gestión de productos si la inserción es exitosa
                 header('Location: gestion_productos.php');
                 exit();
             } else {

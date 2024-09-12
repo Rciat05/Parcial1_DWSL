@@ -1,15 +1,12 @@
 <?php
-// Conexión a la base de datos
 $con = mysqli_connect("localhost", "root", "291866Rc", "TiendaBebidas");
 if (mysqli_connect_errno()) {
     echo "Error en la conexión a la base de datos: " . mysqli_connect_error();
     exit();
 }
 
-// Consulta para obtener productos
 $productos = mysqli_query($con, "SELECT id_producto, nombre FROM productos");
 
-// Manejo del formulario
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nombre = mysqli_real_escape_string($con, $_POST['nombre']);
     $descripcion = mysqli_real_escape_string($con, $_POST['descripcion']);
